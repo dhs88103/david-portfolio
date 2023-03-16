@@ -150,18 +150,3 @@ form {
     background-color: rgb(100, 16, 51);
     color: aliceblue;
 }
-
-@media screen and (max-width: 768px) {
-    main, nav {
-      flex-direction: column;
-    }
-    .about-me {
-        order: 1;
-    }
-    .my-work {
-        order: 2;
-    }
-    .contact-me {
-        order: 3;
-    }
-}
